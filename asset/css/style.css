@@ -1,0 +1,88 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	
+}
+
+nav {
+    background: #5878b5;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;   /* bỏ dấu chấm mặc định */
+   
+}
+
+nav ul li {
+    display: inline-block;  /* cho các mục menu nằm ngang */
+    margin: 0 20px;         /* khoảng cách giữa các mục */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+.row{
+	max-width: 1200px;
+	min-width: 800px;
+	width: 90vw;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin: auto;
+}
+.col{
+	width: calc(25% - 10px);
+	padding: 5px;
+	border: 1px solid rgb(190, 190, 190);
+}
+.p-img img
+{
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	background-color: rgba(196, 82, 82, 0.237);
+	border: 1px solid rgb(20, 30, 35);
+
+}
+.center
+{
+	text-align: center;
+
+}
+.p-detail{
+	text-align: center;
+	font-size: 15px;
+
+}
+.p-detail h3{
+	color: rgba(0, 0, 0, 0.662);
+}
+.p-detail p{
+	color: rgba(255, 0, 0, 0.608);
+}
+
+.p-detail p1 {
+	color: rgba(0, 0, 0, 0.662);
+}
+.p-action button
+{
+	border-radius: 5px;
+	color: rgba(0, 0, 0, 0.662);
+	text-align: center;
+	background-color: rgba(196, 82, 82, 0.237);
+	border: 2px solid rgb(45, 146, 196);
+
+}

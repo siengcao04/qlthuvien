@@ -1,0 +1,155 @@
+/* ========== RESET CSS ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== BODY / CONTAINER ========== */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6f9;
+  color: #333;
+  padding: 20px;
+}
+
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ========== NAV / TIÊU ĐỀ ========== */
+.nav {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #5cc4e7;
+  text-align: center;
+}
+
+/* ========== FORM ========== */
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 28px 32px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+form label {
+  font-weight: 600;
+  color: #444;
+  margin: 12px 0 6px;
+  display: block;
+  font-size: 14px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #6c5ce7;
+  box-shadow: 0 0 5px rgba(108,92,231,0.3);
+}
+
+/* File input */
+form input[type="file"] {
+  padding: 6px;
+  border: none;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 16px;
+  background:  #e75c73;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+form button:hover {
+  background:  #5cc4e7;
+  transform: translateY(-2px);
+}
+
+/* ========== TABLE ========== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+table th {
+  background:  #5cc4e7;
+  color: #fff;
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+table tr:hover {
+  background: #f9f9ff;
+}
+
+
+/* ========== TOP MENU (NAVBAR) ========== */
+
+
+/* Menu ngang */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;   /* canh giữa các mục */
+  background:#ddaeae ;
+  border-radius: 0 0 8px 8px;
+}
+
+ul li {
+  margin: 0;
+}
+
+ul li a {
+  display: block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.57);
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+ul li a:hover {
+  background:#e75c737b;
+   border-radius: 8px;
+}
+
